@@ -14,11 +14,11 @@ document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
 //H1 CHANGER
 if(randomNumber>randomNumber2){
-    document.querySelector("h1").innerHTML="PLAYER 1 WINS";
+    document.querySelector("h2").innerHTML="PLAYER 1 WINS";
 }
 else if(randomNumber2>randomNumber){
-    document.querySelector("h1").innerHTML="PLAYER 2 WINS";
+    document.querySelector("h2").innerHTML="PLAYER 2 WINS";
 }
 else{
-    document.querySelector("h1").innerHTML="DRAW";
+    document.querySelector("h2").innerHTML="DRAW";
 }
